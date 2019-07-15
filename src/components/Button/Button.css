@@ -1,0 +1,12 @@
+.Button {
+  border-radius: 5px;
+  color: #2F4F4F;
+  padding: 0.5rem 1rem;
+  border: 1px solid #D3D3D3;
+}
+
+.Button:hover, .Button.selected{
+  cursor:pointer;
+  background: #081d7f;
+  color:white;
+}

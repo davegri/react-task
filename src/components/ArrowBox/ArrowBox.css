@@ -1,0 +1,30 @@
+.ArrowBox {
+  background-color: white;
+  padding: 1rem;
+	position: absolute;
+  top: 50px;
+	border: 1px solid #D3D3D3;
+}
+.ArrowBox:after, .ArrowBox:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.ArrowBox:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: white;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.ArrowBox:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #D3D3D3;
+	border-width: 11px;
+	margin-left: -11px;
+}

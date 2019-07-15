@@ -1,0 +1,25 @@
+.wrapper{
+  position: relative;
+}
+
+.FilterBar{
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+}
+
+.FilterButon {
+  margin-right: 0.6rem;
+}
+
+.FilterOptionsMenu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: -6px;
+}
+
+.FilterOptionsMenu .Button {
+  margin: 6px;
+}
