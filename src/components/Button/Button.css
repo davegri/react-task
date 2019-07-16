@@ -5,8 +5,12 @@
   border: 1px solid #D3D3D3;
 }
 
-.Button:hover, .Button.selected{
-  cursor:pointer;
+.Button.selected {
   background: #081d7f;
   color:white;
+}
+
+.Button:hover{
+  cursor:pointer;
+  border: 1px solid #081d7f;
 }

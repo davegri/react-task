@@ -4,10 +4,11 @@
 	position: absolute;
   top: 50px;
 	border: 1px solid #D3D3D3;
+  z-index: 99;
 }
 .ArrowBox:after, .ArrowBox:before {
 	bottom: 100%;
-	left: 50%;
+	left: 6%;
 	border: solid transparent;
 	content: " ";
 	height: 0;

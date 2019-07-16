@@ -1,0 +1,73 @@
+.Wrapper{
+  position: relative;
+}
+
+.FiltersSectionFilters {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.FiltersSectionFilters .Button {
+  flex: 0 1 21%;
+}
+
+.FiltersSection h4 {
+  text-transform: capitalize;
+  position: relative;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.FiltersSection h4:after {
+  content: '+';
+  position: absolute;
+  right: 0;
+}
+
+.FiltersSection h4.open:after {
+  content: '-';
+  position: absolute;
+  right: 0;
+}
+
+
+.FilterCategoryButton {
+  margin-right: 0.6rem;
+  width: 100%;
+}
+
+.FiltersCategory {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: -6px;
+}
+
+.FiltersCategory .Button {
+  margin: 6px;
+}
+
+.Actions {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (max-width: 720px) {
+  .Wrapper{
+    display: flex;
+    position:static;
+    flex-grow: 1;
+  }
+  .Wrapper .ArrowBox {
+    right: 0;
+    left: 0;
+    top: 125px;
+  }
+  .FiltersCategory.mobile {
+    width: auto;
+    display: block;
+    padding: 0.8rem;
+  }
+}
